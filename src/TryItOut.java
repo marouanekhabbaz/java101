@@ -24,7 +24,16 @@ public class TryItOut {
         String personOneDrink = "Raspberry Lemonade x 2";
         double personOneSubTotal = personOneAppetizerCost + personOneMainCost
                 + personOneDessertCost + personOneDrinkCost;
+        double x = 3.1;
+        boolean love = true;
+        boolean hate = false;
+        if(love || hate){
+            System.out.println(x);
+//            System.out.printf()
+        }else{
+            System.out.println((3.33));
+        }
 
-        System.out.println(personOneSubTotal);
+
     }
 }
